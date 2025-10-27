@@ -22,7 +22,7 @@ public class HelloController {
     @GetMapping("/hello")
     public Map<String, String> hello() {
         Map<String, String> response = new HashMap<>();
-        response.put("message", "Hello from Spring Boot on AKS!");
+        response.put("message", "Hello I am a Spring Boot Application and I will be Deployed on AKS using Argo CD!");
         return response;
     }
 }
